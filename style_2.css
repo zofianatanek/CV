@@ -1,0 +1,175 @@
+
+* {
+  padding: 0; 
+  margin:0; 
+  box-sizing: border-box;
+}
+
+ 
+
+html {width: 100%; height: 100%;}
+body {font-family: "KoHo", sans-serif; font-size: 14px; color: #707070; background-color: #efefef;}
+
+
+.container {
+   max-width: 800px;
+   background-color: white;
+   margin: 20px auto;
+   padding: 20px 15px 15px 15px;
+  }
+
+  @media (min-width: 799px){
+    .content {
+      display: flex;
+      justify-content: space-between;
+    }
+    .left_column {
+      max-width: 45%;
+      height: auto;
+      margin-left: 2%;
+      margin-right: 20px; 
+    }
+    .right_column {
+      max-width: 45%;
+      height: auto;
+      margin-left: 20px;
+      margin-right: 2%;
+    }
+    .jezyki {
+      display: none;
+    }
+  }
+
+@media (max-width: 599px){
+
+  .jezyki_2 {
+    display: none;
+  }
+}
+
+/* Top line */
+.line {
+  border-bottom: 2px solid #BB965F;
+}
+.left_column{
+  margin-top: 12px;
+  /* background-color: #f2e1d0; */
+}
+
+.right_column{
+  margin-top: 12px;
+}
+
+#ja {
+  max-width: 155px;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* header section */
+.header {
+  display: flex;
+  border-bottom: 2px solid #BB965F;
+  margin-bottom: 6px;
+}
+
+/* Contact section */
+.contact {
+  font-size: 14px;
+  margin-top: 8px;
+  margin-left: 2%;
+}
+.contact img {
+  height: 24px;
+  width: auto;
+}
+.contact td {
+  height: 32px;
+}
+
+.name {
+  font-size: 20px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #BB965F;
+  margin-left: 10px;
+}
+
+.personal_data {
+  margin-left: 3%;
+  max-width: 100%;
+  margin-right: 4%;
+}
+
+h3 {
+  font-size: 18px;
+  border-bottom: 1px solid #BB965F;
+  max-width: 60%;
+  margin-bottom: 8px;
+}
+
+.career {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  text-align: justify;
+}
+
+.skills {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.languages {
+  margin-top: 32px;
+}
+
+/* Experiance section */
+.experiance h3 {
+  width: 80%;
+  border-bottom: 1px solid #BB965F;
+}
+
+.jobs {
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+.date {
+  font-size: 10px;
+  color: #BB965F;
+  font-weight: bold;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.firm {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.office {
+/* font-size: 14px; */
+padding-top: 0px;
+padding-bottom: 0px;
+margin-top: 5px;
+margin-bottom: 3px;
+}
+
+#responsibilities {
+  margin-left: 20px;
+  font-size:
+}
+
+
+
+.languages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.additional ul {
+ margin-left: 20px;
+}
