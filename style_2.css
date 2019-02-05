@@ -18,7 +18,7 @@ body {font-family: "KoHo", sans-serif; font-size: 14px; color: #707070; backgrou
    padding: 20px 15px 15px 15px;
   }
 
-  @media (min-width: 799px){
+  @media (min-width: 700px){
     .content {
       display: flex;
       justify-content: space-between;
@@ -40,7 +40,7 @@ body {font-family: "KoHo", sans-serif; font-size: 14px; color: #707070; backgrou
     }
   }
 
-@media (max-width: 599px){
+@media (max-width: 699px){
 
   .jezyki_2 {
     display: none;
@@ -171,8 +171,11 @@ margin-bottom: 3px;
   text-align: center;
 }
 .jezyki_2 h3{
-  padding-bottom: 1px;
   margin-bottom: 1px;
+}
+
+.jezyki_2{
+  margin-bottom: 32px;
 }
 .languages{
   margin-top: 10px;
