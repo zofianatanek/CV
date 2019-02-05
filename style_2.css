@@ -45,6 +45,9 @@ body {font-family: "KoHo", sans-serif; font-size: 14px; color: #707070; backgrou
   .jezyki_2 {
     display: none;
   }
+  .info {
+    font-size: 12px;
+  }
 }
 
 /* Top line */
@@ -160,16 +163,25 @@ margin-bottom: 3px;
 
 #responsibilities {
   margin-left: 20px;
-  font-size:
 }
-
-
 
 .languages {
   display: flex;
-  justify-content: space-around;
+  font-size: 10px;
+  text-align: center;
+}
+.jezyki_2 h3{
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+.languages{
+  margin-top: 10px;
 }
 
 .additional ul {
  margin-left: 20px;
+}
+
+.about{
+  margin-top: 32px;
 }
